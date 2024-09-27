@@ -11,4 +11,4 @@ else:
     for i in range(2, num):
         siguiente = fibonacci[-1] + fibonacci[-2]
         fibonacci.append(siguiente)
-    print(fibonacci[:num])n
+    print(fibonacci[:num])
